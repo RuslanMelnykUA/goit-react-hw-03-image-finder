@@ -39,7 +39,7 @@ loadMoreBtnClick = () => {
   };
 
   getQuery = () => {
-    const { PER_PAGE, page, request } = this.state;
+    const { page, request } = this.state;
     
     this.setState({
       isShownBtn: false,
